@@ -14,7 +14,7 @@ mkdir build
 rm -rf bin/
 cd build/
 echo "Building in $(pwd)"
-cmake .. -DMUJOCO_HOME=/usr/local/MUJOCO/mujoco-3.3.0
+cmake .. -DMUJOCO_HOME=/usr/local/MUJOCO/mujoco-3.3.0 -Dpybind11_DIR=/home/${USER}/.local/lib/python3.8/site-packages/pybind11/cmake/pybind11
 make -j4
 
 cd ..

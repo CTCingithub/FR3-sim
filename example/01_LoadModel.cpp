@@ -22,7 +22,7 @@ int main(int arg, char **argv)
     std::cout << "Model loaded successfully" << std::endl;
 
     // run simulation for 10 seconds
-    while (d->time < 100)
+    while (d->time < 10)
         mj_step(m, d);
 
     std::cout << "Simulation finished" << std::endl;

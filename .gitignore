@@ -3,5 +3,6 @@ deepmind-ref/
 build/
 bin/
 lib/
+temp/
 Sim-Cpp.sh
 Sim-Py.sh
